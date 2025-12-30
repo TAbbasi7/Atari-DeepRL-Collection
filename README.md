@@ -31,13 +31,12 @@ Each script is self-contained, heavily commented, and pre-configured in **"Demo 
 
 ## 📂 Repository Structure
 
-| Filename | Algorithm | Key Innovation |
+| Algorithm Module | Algorithm | Key Innovation |
 | :--- | :--- | :--- |
-| [`1_DQN_Baseline.py`](./1_DQN_Baseline.py) | **Vanilla DQN** | Experience Replay & Target Networks (Nature 2015). |
-| [`2_Double_DQN.py`](./2_Double_DQN.py) | **Double DQN** | Decouples action selection from evaluation to fix overestimation. |
-| [`3_Dueling_DQN.py`](./3_Dueling_DQN.py) | **Dueling DQN** | Splits network into Value $V(s)$ and Advantage $A(s,a)$ streams. |
-| [`4_Distributional_C51.py`](./4_Distributional_C51.py) | **C51 (Categorical)** | Learns the full *probability distribution* of returns (51 Atoms). |
-
+| [📂 **1_DQN_Baseline**](./1_DQN_Baseline) | **Vanilla DQN** | Experience Replay & Target Networks (Nature 2015). |
+| [📂 **2_Double_DQN**](./2_Double_DQN) | **Double DQN** | Decouples action selection from evaluation to fix overestimation. |
+| [📂 **3_Dueling_DQN**](./3_Dueling_DQN) | **Dueling DQN** | Splits network into Value $V(s)$ and Advantage $A(s,a)$ streams. |
+| [📂 **4_Distributional_C51**](./4_Distributional_C51) | **C51 (Categorical)** | Learns the full *probability distribution* of returns (51 Atoms). |
 ---
 
 ## 🛠️ Installation & Usage
